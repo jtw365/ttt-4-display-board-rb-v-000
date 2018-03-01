@@ -3,12 +3,7 @@
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
 def display_board(board)
-  row = ["   " "|" "   " "|" "   "]
-  dash = ["-----------"]
-  puts row
-  puts dash
-  puts row
-  puts dash
-  puts row
+  puts " #{board[0]} | #{board[1]} | #{board[2]}"
+  puts ["-----------"]
 
 end
