@@ -5,8 +5,6 @@ def row
   ["   " "|" "   " "|" "   "]
 end
 
-
-
 def display_board(board)
   dash = ["-----------"]
   puts row
