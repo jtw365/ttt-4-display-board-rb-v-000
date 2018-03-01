@@ -12,4 +12,3 @@ def display_board(board)
   puts row
 end
 
-puts "#{row[0]}"
