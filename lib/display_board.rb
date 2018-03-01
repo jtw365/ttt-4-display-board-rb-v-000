@@ -1,15 +1,23 @@
 # Define display_board that accepts a board and prints
 # out the current state.
 board = [" ", " ", " ", " ", "X", " ", " ", " ", " "]
-def row
+def row1
+  ["   " "|" "   " "|" "   "]
+end
+
+def row2
+  ["   " "|" "   " "|" "   "]
+end
+
+def row3
   ["   " "|" "   " "|" "   "]
 end
 
 def display_board(board)
   dash = ["-----------"]
-  puts row
+  puts row1
   puts dash
-  puts row
+  puts row2
   puts dash
-  puts row
+  puts row3
 end
