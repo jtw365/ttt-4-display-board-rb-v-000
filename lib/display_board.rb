@@ -5,14 +5,6 @@ def row1
   ["   " "|" "   " "|" "   "]
 end
 
-def row2
-  ["   " "|" "   " "|" "   "]
-end
-
-def row3
-  ["   " "|" "   " "|" "   "]
-end
-
 def display_board(board)
   dash = ["-----------"]
   puts row1
