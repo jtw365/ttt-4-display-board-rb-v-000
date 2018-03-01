@@ -11,4 +11,3 @@ def display_board(board)
   puts dash
   puts row
 end
-
